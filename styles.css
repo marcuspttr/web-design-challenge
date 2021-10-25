@@ -1,0 +1,13 @@
+#landing_h1 {
+    padding-left: 20px;
+}
+
+#landing_image {
+    float: left; 
+    margin: 10px;
+}
+
+#landing_paragraph {
+    text-align: justify;
+    font-size: 20px;
+}
