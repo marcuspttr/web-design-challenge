@@ -29,8 +29,8 @@
                   <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                     <li><a class="dropdown-item" href="northlattemp.html"> Northern Hemisphere: Max Temperature </a></li>
                     <li><a class="dropdown-item" href="southlattemp.html"> Southern Hemisphere: Max Temperature </a></li>
-                    <li><a class="dropdown-item" href="northlatwind.html"> Northern Hemisphere: Wind</a></li>
-                    <li><a class="dropdown-item" href="southlatwind.html"> Southern Hemisphere: Wind</a></li>
+                    <li><a class="dropdown-item" href="windspeed.html"> Wind Speed</a></li>
+                    <li><a class="dropdown-item" href="humidity.html"> Humidity</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -55,7 +55,13 @@
                     <img src = "assets/NorthLatTemp.png" width = "100%">
                     <br>
                     <p>
-                        Analysis of the graph will go here.
+                        As we would expect, the further north of the equator you moved the lower the max temperature experienced.
+                        The linear regression produced a correlation coeffcient of r = -0.73, showing a moderately strong predictive
+                        relationship between the variables. An interesting observation can be seen as the y-intercept predicts a max
+                        temperature of 92 degrees farenheit at cities on the equator (our presumptive hottest average point); however, 
+                        there are plenty of points for cities within 20-30 degrees latitude experiencing much higher temperatures.
+                        Looking into these potential outliers would be an interesting exploration of this topic.
+                        
                     </p>
                 </div>
             </div>
@@ -75,10 +81,10 @@
                     </div>
                     <div class = "row">
                         <div class = "col-md-6">
-                            <a href="northlatwind.html"><img width="100%" src="assets/NLWPreview.png" class = 'img-fluid'></a>
+                            <a href="windspeed.html"><img width="100%" src="assets/CLWPreview.png" class = 'img-fluid'></a>
                         </div>
                         <div class = "col-md-6">
-                            <a href="southlatwind.html"><img width="100%" src="assets/SLWPreview.png" class = 'img-fluid'></a>  
+                            <a href="humidity.html"><img width="100%" src="assets/CLHPreview.png" class = 'img-fluid'></a>  
                         </div>
                     </div>
                 </div>
